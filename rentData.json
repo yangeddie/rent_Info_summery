@@ -1,28 +1,36 @@
-- 樣本1:
-```json
+Based on the information in the documents provided, here is the structured output in JSON format:
+
 {
     "租屋貼文": [
         {
-            "租金": "24000/月",
+            "租金": "5500～6000元/月",
+            "地址": "高雄市楠梓區德賢路",
+            "聯絡方式": "Line ID: Kevin9551199",
+            "電費計價方法": "一度5元（兩個月算一次）",
+            "行政區": "高雄市楠梓區"
+        },
+        {
+            "租金": "24000元/月",
             "地址": "高雄市楠梓區德賢路",
             "聯絡方式": "私訊",
             "電費計價方法": "台電",
             "行政區": "高雄市楠梓區"
-        }
-    ]
-}
-```
-- 樣本2:
-```json
-{
-    "租屋貼文": [
+        },
         {
-            "租金": "21500",
+            "租金": "22000元/月",
             "地址": "高雄市楠梓區",
-            "聯絡方式": "0984-029-501 / Line: mamba0715",
-            "電費計價方法": "帳單繳費",
+            "聯絡方式": "私訊",
+            "電費計價方法": "台電帳單",
             "行政區": "高雄市楠梓區"
+        },
+        {
+            "租金": "5500～6000元/月",
+            "地址": "二路70號",
+            "聯絡方式": "0981662237",
+            "電費計價方法": "一度5元（兩個月算一次）",
+            "行政區": "高雄市小港區"
         }
     ]
 }
-```
+
+Please note that for some entries, the administrative district is inferred based on the location provided, as the district information was not explicitly stated in the documents.【4:0†source】【4:1†source】【4:2†source】【4:3†source】.
